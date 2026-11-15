@@ -3,7 +3,7 @@ import type { ClothingSize } from "../data/data";
 import type { ClothingCategory } from "../data/data";
 import type { ClothingProduct } from "../data/data";
 
-interface ItemCardProps extends ClothingProduct {
+export interface ItemCardProps extends ClothingProduct {
 
 }
 
@@ -26,6 +26,6 @@ export default function ItemCard({
         <br />
         <p>{description}</p>
         <h3>{`$${price}`}</h3>
-        
+
     </div>
 }
